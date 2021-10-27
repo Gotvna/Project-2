@@ -1,8 +1,12 @@
 # Puissance 4
 - GAMING CAMPUS -
 Projet n°2: Introduction à la programmation avec le C
-- Cahier des charges: https://docs.google.com/document/d/1fcYa5XzYnNm4cthAyw2A0EOSa-G93_88LkcRKCg8gKw/edit
-- Tableau Trello: https://trello.com/b/YdUoIVzg/puissance4
+
+- How To Launch :
+gcc puissance4.c -o p4 && ./p4 [<NBL> <NBC> [<NBJ>]]
+  . NBL (optionnel): Nombre de ligne (doit être renseigné avec NBC)
+  . NBC (optionnel): Nombre de colonnes
+  . NBP (optionnel): Nombre de joueur (entre 2 et 6 compris)
 
 - Règles du jeu Puissance 4 : 
 Le but est d'aligner 4 de ses jetons dans n'importe quel sens (diagonal, vertical ou horizontal).
